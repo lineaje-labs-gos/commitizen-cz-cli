@@ -1,6 +1,6 @@
 {
   "name": "commitizen",
-  "version": "4.0.3-lineaje-01",
+  "version": "4.3.1-lineaje-01",
   "description": "Git commit, but play nice with conventions.",
   "main": "dist/index.js",
   "scripts": {
@@ -87,7 +87,7 @@
     "glob": "7.1.4",
     "inquirer": "6.5.0",
     "is-utf8": "^0.2.1",
-    "lodash": "4.17.15",
+    "lodash": ">=4.18.1",
     "minimist": "1.2.0",
     "shelljs": "0.7.6",
     "strip-bom": "4.0.0",
@@ -122,5 +122,11 @@
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/commitizen"
+  },
+  "overrides": {
+    "lodash": ">=4.18.1"
+  },
+  "resolutions": {
+    "lodash": ">=4.18.1"
   }
 }
