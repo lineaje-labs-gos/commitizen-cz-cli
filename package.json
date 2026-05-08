@@ -1,6 +1,6 @@
 {
   "name": "commitizen",
-  "version": "0.0.0-semantically-released",
+  "version": "4.0.3-lineaje-01",
   "description": "Git commit, but play nice with conventions.",
   "main": "dist/index.js",
   "scripts": {
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/commitizen/cz-cli",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-cli.git"
+    "url": "https://github.com/lineaje-labs-gos/commitizen-cz-cli"
   },
   "keywords": [
     "commit",
@@ -46,6 +46,12 @@
   },
   "author": "Jim Cummins <jimthedev@gmail.com> (https://github.com/jimthedev)",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
